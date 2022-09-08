@@ -1,0 +1,35 @@
+.list {
+    width: 500px;
+    margin-top: 24px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style: none;
+    border-radius: 15px;
+}
+
+.item {
+    display: flex;
+    padding: 6px 20px;
+    justify-content: space-between;
+    border-radius: 6px;
+    background-color: bisque;
+    color: #212121;
+}
+
+.button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    min-width: 140px;
+    font-weight: 600;
+}
