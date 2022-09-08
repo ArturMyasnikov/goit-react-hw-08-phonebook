@@ -11,7 +11,7 @@
     margin: 20px;
     width: 250px;
     height: 250px;
-    --color1: #0000ff;
+    --color1: orange;
 
     transform-origin: center center;
     animation: spinner 1s linear infinite;

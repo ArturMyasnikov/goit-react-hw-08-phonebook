@@ -18,8 +18,7 @@
 }
 
 .link:hover {
-    text-shadow: 0 0 3px #26272c;
-    transition: text-shadow 300ms ease;
+    color: #212121;
 }
 
 .active {
@@ -30,19 +29,15 @@
 
 .button {
     width: 150px;
+    background-color: initial;
     padding: 10px;
     font-size: 20px;
-    border-radius: 5px;
-    background-color: #212121;
     color: #fff;
     cursor: pointer;
-    border: 1px solid #4e4e5c;
 }
 
 .button:hover {
-    background-color: #d1d7e4;
-    color: #4e4e5c;
-    transition: background-color 300ms ease;
+    color: #212121;
 }
 
 .title {
